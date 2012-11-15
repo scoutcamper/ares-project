@@ -1,3 +1,4 @@
 enyo.depends(
-	"ServiceRegistryTest.js"
+	"ServiceRegistryTest.js",
+	"ProviderListTest.js"
 );
