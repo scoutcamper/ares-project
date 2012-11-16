@@ -1,19 +1,21 @@
 <!doctype html>
 <html>
-        <head>
-                <title>Ares Tests</title>
-                <script src="../enyo/enyo.js" type="text/javascript"></script>
-                <script src="../lib/extra/test/package.js" type="text/javascript"></script>
-<!-- 
-                TODO: check 
- -->
-                <script src="../lib/service/package.js" type="text/javascript"></script>
-                <script src="../harmonia/package.js" type="text/javascript"></script>
-                <script src="tests/package.js" type="text/javascript"></script>
-        </head>
-        <body style="font-size: medium">
-                <script type="text/javascript">
-                        new enyo.TestRunner().renderInto(document.body);
-                </script>
-        </body>
+	<head>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<!-- -->
+		<title>AresWithTest</title>
+		<!-- -->
+		<script src="../enyo/enyo.js" type="text/javascript"></script>
+		<script src="../ares/package.js" type="text/javascript"></script>
+		<script src="../lib/extra/test/package.js" type="text/javascript"></script>
+		<!-- -->
+		<script src="package.js" type="text/javascript"></script>
+		<!-- -->
+	</head>
+	<body class="enyo-unselectable Xonyx">
+		<script type="text/javascript">
+			new AresWithTest().write();
+		</script>
+	</body>
 </html>
